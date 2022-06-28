@@ -1,0 +1,13 @@
+{
+    "plugins": [
+        ["@babel/plugin-proposal-decorators", { "legacy": true }],
+        ["module-resolver", {
+            "root": ["./src"],
+            "alias": {
+              "test": "./test",
+              "underscore": "lodash"
+            }
+          }]
+    ]
+}
+  
